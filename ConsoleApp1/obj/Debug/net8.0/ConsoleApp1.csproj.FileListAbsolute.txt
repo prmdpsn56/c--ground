@@ -1,0 +1,15 @@
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.AssemblyInfo.cs
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.sourcelink.json
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.dll
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/refint/ConsoleApp1.dll
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
+/Users/paramdeepsingh/Desktop/c#/git/c--ground/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
