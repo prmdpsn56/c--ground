@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A8CB0BAB-D34C-48C2-9474-8CE770DE8C60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherSimulator", "WeatherSimulator\WeatherSimulator.csproj", "{C51530B7-B9FB-4D47-A7C1-A352875D9A89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A8CB0BAB-D34C-48C2-9474-8CE770DE8C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8CB0BAB-D34C-48C2-9474-8CE770DE8C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8CB0BAB-D34C-48C2-9474-8CE770DE8C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51530B7-B9FB-4D47-A7C1-A352875D9A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51530B7-B9FB-4D47-A7C1-A352875D9A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51530B7-B9FB-4D47-A7C1-A352875D9A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51530B7-B9FB-4D47-A7C1-A352875D9A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
