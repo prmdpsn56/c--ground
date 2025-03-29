@@ -15,6 +15,10 @@ namespace MyApp
         
             myResult = AddTwoValues(1,1);
 
+
+            double myresult = 10.0/8;
+            System.Console.WriteLine(myresult);
+
         }
 
         static int AddTwoValues(int numb1, int numb2){
@@ -26,5 +30,7 @@ namespace MyApp
             return num1 = num2;
 
         }
+
+       
     }
 }
