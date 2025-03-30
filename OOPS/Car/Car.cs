@@ -9,12 +9,6 @@ internal  class Car
 {       
 
     private string _brand = "";
-    private string _name = "";
-    private bool _luxury;
-
-
-   public string Name { get; set; }   
-    
     public string Brand
     {
         get {
@@ -34,18 +28,14 @@ internal  class Car
     }
     
 
-    public bool  isLuxury
-    {
-        get => _luxury;
-        set => _luxury = value;
-    }
-
+    public string Name { get; set; }   
+    
+    
+    public bool isLuxury { get; set; }
 
     public Car(string carName,string brand,bool isLuxury ){
-        this._name = carName;
-        this.Brand = brand;
+        Name = carName;
+        Brand = brand;
         this.isLuxury = isLuxury;
-        
-        System.Console.WriteLine($"{_brand},  {_name} is created and it is considered as luxury: {_luxury};");
     }
 }
