@@ -26,16 +26,22 @@ internal  class Car
             }
         }
     }
-    
-
-    public string Name { get; set; }   
-    
-    
+    public static int NumberOfCars = 0;
+    public string Model { get; set; }   
     public bool isLuxury { get; set; }
 
     public Car(string carName,string brand,bool isLuxury ){
-        Name = carName;
+        Model = carName;
         Brand = brand;
         this.isLuxury = isLuxury;
+        NumberOfCars++;
     }
+
+
+    public void Drive(){
+        System.Console.WriteLine("I am driving");
+    }
+
+
+
 }
