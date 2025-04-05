@@ -13,8 +13,26 @@ public class Quiz
         this.questions = questions;
     }
 
+    
+    public void StartQuiz(){
+        System.Console.WriteLine("Welcome to the Quiz!");
+        int questionNumber = 1;
 
-    public void DisplayQuestion (Question question){
+        foreach (var question in questions)
+        {
+            int userChoice = 0;
+            Console.WriteLine($"Question:  {questionNumber++}");
+            DisplayQuestion(question);
+            userChoice = GetUserChoice();
+            if(question.IsCorrectAnswer(userChoice)){
+                System.Console.WriteLine("correct!");
+            }else{
+                System.Console.WriteLine($"wrong! the correct answer is :{question.Answers[question.CorrectAnswerIndex]}");
+            }
+        }
+    }
+
+    private void DisplayQuestion (Question question){
         Console.ForegroundColor = ConsoleColor.Yellow;
         System.Console.WriteLine(question.QuestionText);
 
@@ -26,24 +44,17 @@ public class Quiz
             System.Console.ResetColor();
             System.Console.WriteLine($". {question.Answers[i]}");
         }
-
-        if( GetUserChoice()== question.CorrectAnswerIndex){
-            Console.WriteLine("Correct");
-        }else {
-            Console.WriteLine("incorrect");
-        }
     }
 
 
     private int GetUserChoice(){
-        System.Console.WriteLine("Your andwer (number)");
+        System.Console.WriteLine("Please Enter Your answer (in number)");
         string input = Console.ReadLine();
         int choice = 0;
         while(!int.TryParse(input,out choice) || choice < 1 || choice > 4){
             Console.WriteLine("Invalid selecton,Please select values in 1 and 4");
             input = Console.ReadLine();
         }
-
         return choice - 1; //adjust to zerio indexing
     }
 }
