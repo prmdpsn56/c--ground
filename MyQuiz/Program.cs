@@ -23,7 +23,7 @@ namespace MyQuiz
                 };
 
             Quiz myquiz = new Quiz(questions);
-
+            
 
             myquiz.StartQuiz();
             // myquiz.DisplayQuestion(questions[0]);
