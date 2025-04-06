@@ -96,7 +96,7 @@ namespace Lists
         foreach (var item in products){
             System.Console.Write(item.Name);
             System.Console.Write(" : ");
-            System.Console.Write(item.Price);
+            System.Console.Write(!item.Price.HasValue ? null : item.Price.Value);
             System.Console.WriteLine("");
         }
 
