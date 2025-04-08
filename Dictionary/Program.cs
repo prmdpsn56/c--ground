@@ -21,18 +21,18 @@ namespace MyApp
             // System.Console.WriteLine(name);
 
 //adding at an existing item.
-            employees.Add(1,"John Doe");
+            // employees.Add(1,"John Doe");
             //we will get a runtime error when we try to add at the same place, we can just update based on if there is a value already or not.
-            if(!employees.ContainsKey(1)){
-                employees.Add(1,"John doe");
-            }
+            // if(!employees.ContainsKey(1)){
+            //     employees.Add(1,"John doe");
+            // }
 
-            var counter = 101;
-            while (!employees.ContainsKey(counter))
-            {
-                counter++;
-            }
-            employees.Add(counter,"Jesus christ");
+            // var counter = 101;
+            // while (!employees.ContainsKey(counter))
+            // {
+            //     counter++;
+            // }
+            // employees.Add(counter,"Jesus christ");
             
 //remove    
             // employees.Remove(1);
@@ -43,6 +43,32 @@ namespace MyApp
                 System.Console.WriteLine($"{item.Key} : {item.Value}");
             }
 
+            Dictionary<string,List<int>> list = new Dictionary<string, List<int>>{
+                {"1", new List<int>{1,2,3}}
+            };
+
+
+            foreach (KeyValuePair<string,List<int>> item in list)
+            {   
+                foreach (var nestedValue in item.Value)
+                {   
+                        System.Console.Write($"{nestedValue} ");
+                }
+            }
+
+
+
+            var dictionary3 = new Dictionary<string,string>{
+                {"ny","ny"},
+
+            };
+
+
+            
+            var dictionary4 = new Dictionary<string,string>{
+              ["ny"] = "new york"
+                
+            };
         }
     }
 }
