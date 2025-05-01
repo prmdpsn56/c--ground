@@ -85,6 +85,8 @@ namespace MyApp
             {
                 public override void ShowMessage2()
                 {
+                    var info = new List<string> ();
+                    info = ["DerivedClass2", "DerivedClass2"];
                     Console.WriteLine("Message from DerivedClass2");
                 }
             }
@@ -118,7 +120,7 @@ namespace MyApp
             public new void DisplayInfo()
             {   
                 base.DisplayInfo(); // Call the base class method
-                Console.WriteLine($"Name: {Name}, Age: {Age}, Employee ID: {EmployeeId}");
+                Console.WriteLine($"Name: {Name}, Age: {Age}, Employee ID: {EmployeeId} from child class");
             }
         }
 
