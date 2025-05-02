@@ -18,6 +18,14 @@ namespace MyApp
 
             IPaymentProcessor paypalProcessor = new PaypalProcessor();
             paypalProcessor.ProcessPayment(200.00m); // Output: Processing credit card payment of 200.00
+
+
+            string path = @"/paramdeepsingh/Documents/file.txt";
+            string filePath = System.IO.Path.Combine(path, "file.txt");
+
+            File.AppendAllText(filePath, "Log entry at ");
+            Console.ReadKey();
+            
         }
     }
 
